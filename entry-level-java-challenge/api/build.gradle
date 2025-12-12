@@ -1,0 +1,16 @@
+plugins {
+    id 'project-conventions' 
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+dependencies {
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+springBoot {
+    mainClass = 'com.challenge.api.EntryLevelJavaChallengeApplication'
+}
